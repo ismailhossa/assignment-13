@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.min-div{
+ 
+}
+.benner{
+    background-image: url(./img/photo-1471879832106-c7ab9e0cee23.jpg);
+    padding: 250px;
+    background-repeat: no-repeat;
+   background-size:cover;
+   background-position: left;
+   position: relative;
+}
+.benner-img{
+    position: absolute;
+    top: 20px;
+    left: 20%;
+}
+.benner-img h2::after{
+    content: '';
+    font-family: font awesome 6;
+    font-weight: 600;
+   
+
+}
+.benner-img h2{
+   margin-top: 200px;
+   margin-left: 110px;
+   font-size: 55px;
+   color: #fff;
+}
+.header-menu ul{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+}
+.header-menu ul li a:hover{
+   color: #ef664d;
+}
+.about{
+    position: relative;
+}
+.about h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.about img{
+   width: 200px;
+   position: absolute;
+   top: 60px;
+   left: 250px;
+   border: 2px solid #e6684f;
+   box-shadow: 1px 2px 12px 1px black;
+}
+.about p{
+   width: 600px;
+   position: absolute;
+   top: 50px;
+   right: 220px;
+}
+.p-2{
+    width: 600px;
+    position: absolute;
+    top: 150px;
+    right: 220px;
+    margin-top: 100px;
+    
+}
+.sirvec-2{
+    margin-top: 240px;
+   
+    background-color: #2e3e4e;
+    
+  
+
+}
+.sirvece-3{
+    background-color: #2e3e4e;
+    position: relative;
+}
+.ismail{
+  position: absolute;
+  top: 20px;
+  left: 400px;
+  
+}
+.ismail-2{
+   position: absolute;
+   top: 20px;
+   left: 650px;
+}
+.ismail-3{
+    position: absolute;
+    top: 20px;
+   right: 200px;
+}
+.form{
+    margin-top: 120px;
+    text-align: center;
+  
+}
